@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+  background-size: 600% 100%;
+  animation: gradient 16s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes gradient {
+  0% {background-position: 0%}
+  100% {background-position: 100%}
+}
+  
+
+.container{
+  width: 40%;
+  height: 75vh;
+  margin: 90px auto;
+  background-color: white;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.title {
+  margin-top: 49px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.qr {
+  margin: 10px auto;
+  padding: 10px 15px;
+  height: 15px;
+  width: 70%;
+  border: 1px solid;
+  outline: none;
+  border-radius: 10px;
+  font-family: sans-serif;
+  
+}
+.qr-img{
+  height: 200px;
+  width: 200px;
+  margin: 5px auto;
+  object-fit: contain;
+  padding: 8px;
+  border: 4px solid;
+}
+.btn {
+  width: 50%;
+  margin: 10px auto;
+  padding: 9px 15px;
+  text-transform: uppercase;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+  background-size: 600% 100%;
+  animation: gradient 16s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes gradient {
+  0% {background-position: 0%}
+  100% {background-position: 100%}
+}
+  
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 500px) {
+    
+  body {
+    background-repeat: no-repeat;
+      
+      background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+  background-size: 600% 100%;
+  animation: gradient 16s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes gradient {
+  0% {background-position: 0%}
+  100% {background-position: 100%}
+  
+}
+  
+
+  .container {
+      width: 90%;
+      height: 60vh;
+      margin: 45% auto;
+  }
+
+  .btn {
+      width: 66%;
+      margin-bottom: 30px;
+  }
+
+  .qr-img {
+      width: 75%;
+      height: 90%;
+      padding: 5px 15px;
+  }
+
+}
